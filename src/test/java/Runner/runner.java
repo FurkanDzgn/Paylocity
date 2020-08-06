@@ -14,8 +14,8 @@ import org.junit.runner.RunWith;
         features = "src\\test\\resources\\funcitonsOfEmployee.feature",
         glue = "StepDefinitions",
         monochrome = true,
-        dryRun = false,
-        tags = "@Add"
+        dryRun = true,
+        tags = "@Delete"
 )
 public class runner {
 }
