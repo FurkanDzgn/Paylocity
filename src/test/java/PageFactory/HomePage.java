@@ -31,5 +31,25 @@ public class HomePage {
     @FindBy(xpath = "//tr[2]//td[7]")
     public WebElement netPay;
 
+    @FindBy(xpath = "//tr[2]//td[9]//i[2]")
+    public WebElement deleteButton;
+
+    @FindBy(xpath = "//*[@id=\"employeesTable\"]//tbody//tr//td[1]")
+    public List<WebElement> employeesID;
+
+    @FindBy(xpath = "//tbody//td//i[@class='fas fa-edit']")
+    public List<WebElement> editButton;
+
+    @FindBy(xpath = "//tbody//tr//td[2]")
+    public List<WebElement> firstNames;
+
+    @FindBy(xpath = "//tbody//tr//td[3]")
+    public List<WebElement> lastNames;
+
+
+
+
+
+
 
 }

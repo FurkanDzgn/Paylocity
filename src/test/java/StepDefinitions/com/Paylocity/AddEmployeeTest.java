@@ -65,7 +65,7 @@ public class AddEmployeeTest {
     public void the_employee_should_save() {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         int countOfEmployee = homePage.countOfEmployees.size();
-        Assert.assertTrue(countOfEmployee>2);
+        Assert.assertTrue(countOfEmployee>1);
     }
 
     @Then("Validate employee who created from table")
