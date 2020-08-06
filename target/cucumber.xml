@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="1" tests="1" time="0.399">
+<testcase classname="Paylocity WebSite" name="Add Employee" time="0.089">
+<skipped><![CDATA[Given User goes to the Website..............................................undefined
+When Valitade url and title.................................................undefined
+Then Click add employee button..............................................undefined
+Then enter employee details.................................................undefined
+And the employee should save................................................undefined
+And Validate employee who created from table................................undefined
+And the benefit cost calculations are correct...............................undefined
+]]></skipped>
+</testcase>
+</testsuite>
